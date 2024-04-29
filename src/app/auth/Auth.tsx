@@ -45,6 +45,9 @@ export function Auth() {
 			<form
 				className='w-1/4 m-auto shadow bg-sidebar rounded-xl p-layout'
 				onSubmit={handleSubmit(onSubmit)}
+				style={{
+					backgroundColor: 'cornflowerblue'
+				}}
 			>
 				<Heading title='Auth' />
 

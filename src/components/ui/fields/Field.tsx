@@ -18,8 +18,9 @@ export const Field = forwardRef<HTMLInputElement, InputFieldProps>(
 		ref
 	) => {
 		return (
-			<div className={`${extra}`}>
+			<div className={extra}>
 				<label
+					style={{ color: '#000' }}
 					htmlFor={id}
 					className={`text-sm text-white/60 dark:text-white ml-1.5 font-medium`}
 				>
